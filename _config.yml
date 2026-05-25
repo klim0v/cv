@@ -1,6 +1,33 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+# Site
+title: Sergei Klimov
+description: >-
+  Senior / Lead Go Blockchain Engineer — Ethereum MEV, TON, Cosmos.
+  Lead engineer at NuConstruct (TOOL Node on go-ethereum). Author of
+  evaafi/evaa-go-sdk. Upstream contributor to Prysm, MEV-Boost,
+  Cosmos IAVL, Tendermint tm-db.
+url: https://klim0v.github.io
+lang: en-US
+show_downloads: false
+
+# Identity (consumed by jekyll-seo-tag)
+author:
+  name: Sergei Klimov
+  email: crazyuser704@gmail.com
+  twitter: 0xGoDev
+
+twitter:
+  username: 0xGoDev
+  card: summary
+
+social:
+  name: Sergei Klimov
+  links:
+    - https://github.com/klim0v
+    - https://www.linkedin.com/in/klim0v/
+    - https://x.com/0xGoDev
+
+# Theme
 theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-seo-tag
